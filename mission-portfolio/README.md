@@ -1,4 +1,4 @@
-# Samhita Vetcha — Software Engineer Portfolio
+# Samhita Vetcha — Software Engineer Portfolio :
 
 A modern, responsive portfolio website built with React, Vite, and Tailwind CSS. Showcases skills, projects, and experience with interactive UI and smooth animations.
 
