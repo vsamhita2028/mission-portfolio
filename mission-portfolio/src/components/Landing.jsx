@@ -10,7 +10,7 @@ const Landing = () => {
         document.body.removeChild(link);
     }
     return (
-        <div className="flex-1 flex items-center justify-center">
+        <div className="flex-1 flex items-center justify-center mb-10">
             <div className="grid grid-cols-1 md:grid-cols-2 items-center justify-center w-full px-2 py-5 sm:px-8 md:px-16 lg:px-32 bg-transparent gap-5">
                 <div className="order-2 md:order-1 flex flex-col items-center justify-center md:items-start text-center md:text-left">
                     <div className="text-3xl sm:text-4xl md:text-5xl mb-1">Hello,</div>

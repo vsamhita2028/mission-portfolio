@@ -40,7 +40,7 @@ const About = () => {
     ];
     return (
         //fix the css looks so complicated
-        <section className="min-h-screen flex flex-col mb-30 px-4 sm:px-8 md:px-10 sm:mb-5">
+        <section className="min-h-screen flex flex-col mb-10">
             <Title title="Who Am I?" />
             <div className="grid grid-cols-1 md:grid-cols-5  flex justify-center items-center">
                 <div className="md:col-span-2 lg:col-span-2 flex justify-center items-center">
@@ -50,8 +50,8 @@ const About = () => {
                         className="h-80 w-80 sm:h-100 sm:w-100 md:h-140 md:w-140 lg:w-120 lg:h-120 object-contain z-10"
                     />
                 </div>
-                <div className="md:col-span-3 lg:col-span-3 max-w-full md:max-w-3xl px-3">
-                    <div className="text-sm sm:text-base md:text-lg text-justify space-y-2 border-2 border-[#3B4150] rounded-xl shadow px-2 sm:px-4 md:px-8 py-4 sm:py-6">
+                <div className="md:col-span-3 lg:col-span-3 max-w-full md:max-w-3xl px-5">
+                    <div className="text-sm sm:text-base md:text-lg space-y-2 border-2 border-[#3B4150] rounded-xl shadow px-2 sm:px-4 md:px-8 py-4 sm:py-6">
                         <p>I’m a software engineer with a little over three years of experience, mainly focused on frontend development. I enjoy building clean, intuitive, and scalable web experiences using JavaScript, React, and solid engineering practices. What excites me most is finding that balance between great design and reliable architecture, making sure things not only look good but work smoothly.</p>
                         <p className="my-3 sm:my-5">I’m passionate about building products that feel intuitive, fast, and accessible to everyone. I’m constantly learning, whether it’s exploring better design systems, improving performance, or experimenting with new front-end tools.</p>
 

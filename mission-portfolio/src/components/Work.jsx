@@ -22,7 +22,7 @@ const Work = () => {
     }
     ]
     return (
-        <section className="min-h-screen flex flex-col px-4 sm:px-8 md:px-10 sm:mb-5">
+        <section className="min-h-screen flex flex-col px-4 sm:px-8 md:px-10 mb-10">
             <div className='items-center justify-center w-full px-2 py-5 xs:px-8 sm:px-16'>
                 <Title title="My Work" />
                 <ul className="grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-3 gap-10 mt-10">
