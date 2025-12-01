@@ -2,9 +2,8 @@ import React from 'react'
 import { DotLottieReact } from '@lottiefiles/dotlottie-react';
 const Landing = () => {
     const downloadResume = () => {
-        // Logic to download resume
         const link = document.createElement('a');
-        link.href = "../../public/Samhita_Resume.pdf"; // Replace with actual resume path
+        link.href = "../../public/Samhita_Resume.pdf";
         link.download = 'Samhita_Vetcha_Resume.pdf';
         document.body.appendChild(link);
         link.click();
