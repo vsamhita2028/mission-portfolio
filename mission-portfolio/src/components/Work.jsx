@@ -18,7 +18,7 @@ const Work = () => {
         title: "ATM UI Architecture Design",
         image: casestudy,
         description: "A project showcasing client-side architecture design principles of ReactJS for building an ATM UI.",
-        link: "#"
+        link: "https://somber-brochure-4b9.notion.site/ATM-UI-Architecture-Design-2bcec062e38580b7ba70f705452db0c9?source=copy_link"
     }
     ]
     return (
