@@ -17,7 +17,7 @@ const Work = () => {
     }, {
         title: "ATM UI Architecture Design",
         image: casestudy,
-        description: "A project showcasing client-side architecture design principles if ReactJS for building an ATM UI.",
+        description: "A project showcasing client-side architecture design principles of ReactJS for building an ATM UI.",
         link: "#"
     }
     ]
