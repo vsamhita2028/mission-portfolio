@@ -1,34 +1,30 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-
+import { useState, useEffect } from 'react'
+import Header from './components/Header';
+import Body from './components/Body';
+import Loader from './components/Loader';
+import "./App.css";
 function App() {
-  const [count, setCount] = useState(0)
+  const [showLoader, setShowLoader] = useState(true);
+
+  useEffect(() => {
+    const timer = setTimeout(() => setShowLoader(false), 2000); // 2 seconds
+    return () => clearTimeout(timer);
+  }, []);
 
   return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+    <div className="min-h-screen transition-colors">
+      <div
+        className={`fixed inset-0 flex items-center justify-center transition-opacity duration-700 ${
+          showLoader ? 'opacity-100 z-50' : 'opacity-0 pointer-events-none z-0'
+        }`}
+      >
+        <Loader showLoader={showLoader} />
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
+      <div className={`relative z-20 transition-opacity duration-700 ${showLoader ? 'opacity-0' : 'opacity-100'}`}> 
+        
+        <Body />
       </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
+    </div>
   )
 }
 
