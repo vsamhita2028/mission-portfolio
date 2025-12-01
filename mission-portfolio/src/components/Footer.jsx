@@ -11,7 +11,7 @@ const Footer = () => {
           <a href="mailto:samhitavetcha@gmail.com" className="hover:text-[#FF4EDB] transition">
             <SiGmail className='h-8 w-8'/>
           </a>
-          <a href="https://www.linkedin.com/in/samhitavetcha" target="_blank" rel="noopener noreferrer" className="hover:text-[#FF4EDB] transition">
+          <a href="https://www.linkedin.com/in/samhita-vetcha/" target="_blank" rel="noopener noreferrer" className="hover:text-[#FF4EDB] transition">
             <PiLinkedinLogoBold className='h-8 w-8'/>
           </a>
           <a href="https://github.com/vsamhita2028" target="_blank" rel="noopener noreferrer" className="hover:text-[#FF4EDB] transition">

@@ -1,12 +1,91 @@
-# React + Vite
+# Samhita Vetcha — Software Engineer Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive portfolio website built with React, Vite, and Tailwind CSS. Showcases skills, projects, and experience with interactive UI and smooth animations.
 
-Currently, two official plugins are available:
+## Features
+- Responsive design for mobile, tablet, and desktop
+- Animated landing section with Lottie
+- Tech stack carousel (Swiper.js)
+- About, Work, and Footer sections
+- Downloadable resume
+- Deployed via GitHub Pages
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Getting Started
 
-## Expanding the ESLint configuration
+### Prerequisites
+- Node.js (v16+ recommended)
+- npm
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Installation
+```bash
+npm install
+```
+
+### Development
+```bash
+npm run dev
+```
+Open [http://localhost:5173](http://localhost:5173) in your browser.
+
+### Build
+```bash
+npm run build
+```
+
+### Preview Production Build
+```bash
+npm run preview
+```
+
+## Deployment (GitHub Pages)
+1. Set the `homepage` field in `package.json`:
+   ```json
+   "homepage": "https://vsamhita2028.github.io/mission-portfolio/"
+   ```
+2. Set the base path in `vite.config.js`:
+   ```js
+   export default defineConfig({
+     base: '/mission-portfolio/',
+     // ...other config
+   })
+   ```
+3. Install gh-pages:
+   ```bash
+   npm install --save-dev gh-pages
+   ```
+4. Add deploy scripts to `package.json`:
+   ```json
+   "scripts": {
+     "predeploy": "npm run build",
+     "deploy": "gh-pages -d dist"
+   }
+   ```
+5. Deploy:
+   ```bash
+   npm run deploy
+   ```
+6. In your GitHub repo settings, set Pages source to the `gh-pages` branch.
+
+## Folder Structure
+```
+mission-portfolio/
+├── public/
+│   ├── logo.png
+│   └── Samhita_Resume.pdf
+├── src/
+│   ├── assets/
+│   ├── components/
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── ...
+├── index.html
+├── package.json
+├── vite.config.js
+└── README.md
+```
+
+## License
+MIT
+
+---
+Feel free to fork, customize, and share!

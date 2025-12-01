@@ -1,6 +1,5 @@
 import { useState } from "react";
 import { PiHamburgerBold } from "react-icons/pi";
-import logo from "../assets/logo.png"
 
 export default function Header() {
   const [open, setOpen] = useState(false);
