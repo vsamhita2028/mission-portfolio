@@ -52,7 +52,7 @@ const About = () => {
                 </div>
                 <div className="md:col-span-3 lg:col-span-3 max-w-full md:max-w-3xl px-5">
                     <div className="text-sm sm:text-base md:text-lg space-y-2 border-2 border-[#3B4150] rounded-xl shadow px-2 sm:px-4 md:px-8 py-4 sm:py-6">
-                        <p>I’m a software engineer with a little over three years of experience, mainly focused on frontend development. I enjoy building clean, intuitive, and scalable web experiences using JavaScript, React, and solid engineering practices. What excites me most is finding that balance between great design and reliable architecture, making sure things not only look good but work smoothly.</p>
+                        <p>I’m a software engineer with a four years of experience, mainly focused on frontend development. I enjoy building clean, intuitive, and scalable web experiences using JavaScript, React, and solid engineering practices. What excites me most is finding that balance between great design and reliable architecture, making sure things not only look good but work smoothly.</p>
                         <p className="my-3 sm:my-5">I’m passionate about building products that feel intuitive, fast, and accessible to everyone. I’m constantly learning, whether it’s exploring better design systems, improving performance, or experimenting with new front-end tools.</p>
 
                     </div>
